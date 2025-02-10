@@ -8,6 +8,7 @@ import java.util.Optional;
 
 @Repository
 public interface PeliculaRepository extends JpaRepository<Pelicula, Long> {
-    // Y se busca por mas de un campo hay que separarlos por And
-    Optional<Pelicula> findByNombreAndDirectorAndClasificacion(String nombre, String director, String clasificacion);
+    // Si se busca por mas de un campo hay que separarlos por And
+    Optional<Pelicula> findByNombreAndDirectorAndClasificacion(
+            String nombre, String director, String clasificacion);
 }

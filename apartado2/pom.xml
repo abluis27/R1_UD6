@@ -8,7 +8,7 @@
 		<version>3.4.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
+	<groupId>Reto1UD6</groupId>
 	<artifactId>accessing-data-rest</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>accessing-data-rest</name>
